@@ -4,7 +4,7 @@
 
 A Graph Neural Network (GNN) based system for supply chain risk assessment and early warning. This is an **academic and research project** leverages multi-layer graph architectures and an ensemble of GNN models (GCN, GAT, and Temporal GNN) to predict supplier risk, simulate disruption cascades, and provide actionable insights for supply chain resilience.
 
-Overview
+**Overview**
 
 This repository contains code, configuration examples, and documentation for building and evaluating an ensemble of GNN models to assess risk across supply chains. The system focuses on:
 
@@ -13,14 +13,14 @@ This repository contains code, configuration examples, and documentation for bui
 - Ensemble predictions from GCN, GAT, and Temporal GNN components
 - Configurable training and inference pipelines
 
-Getting started
+**Getting started**
 
 1. Install dependencies: pip install -r requirements.txt
 2. Prepare data in data/processed (nodes.csv, edges.csv)
 3. Train with the example config: python train.py --config configs/train.yaml
 4. Run inference with the example config: python inference.py --config configs/inference.yaml
 
-Files added
+**Files added**
 
 - README.md (this file)
 - LICENSE (MIT)
@@ -32,11 +32,11 @@ Files added
 - inference.yaml
 - train.yaml
 
-Contributing
+**Contributing**
 
 Contributions, issues and feature requests are welcome. Please open an issue or submit a pull request.
 
-License
+**License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
