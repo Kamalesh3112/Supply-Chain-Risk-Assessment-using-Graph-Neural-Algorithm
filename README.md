@@ -11,7 +11,7 @@ This repository contains code, configuration examples, and documentation for bui
 - Supplier risk prediction using node and edge features
 - Modeling propagation of disruptions through graph cascades
 - Ensemble predictions from GCN, GAT, and Temporal GNN components
-- Configurable training and inference pipelines
+- **[CPU optimized]** Configurable training and inference pipelines
 
 **Getting started**
 
