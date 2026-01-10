@@ -1,0 +1,15 @@
+python>=3.x
+torch>=1.10
+torchvision>=0.11
+torchaudio>=0.10
+torch-geometric
+numpy>=1.19
+pandas
+scikit-learn
+networkx
+pyyaml
+matplotlib
+seaborn
+tqdm
+tensorboard
+scipy

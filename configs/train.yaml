@@ -1,0 +1,21 @@
+model:
+  name: ensemble
+  components: [gcn, gat, temporal]
+  hidden_dim: 128
+
+data:
+  path: data/processed
+  node_features: nodes.csv
+  edges: edges.csv
+
+training:
+  epochs: 100
+  batch_size: 32
+  lr: 1e-3
+  weight_decay: 1e-5
+  seed: 42
+  device: cuda
+
+checkpoint:
+  dir: outputs/checkpoints
+  save_best: true

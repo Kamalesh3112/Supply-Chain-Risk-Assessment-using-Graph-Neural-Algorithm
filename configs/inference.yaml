@@ -1,0 +1,8 @@
+checkpoint: outputs/checkpoints/checkpoint_best.pt
+data:
+  path: data/processed
+  snapshot: snapshot_latest.pt
+thresholds:
+  risk_score: 0.7
+output:
+  dir: outputs/predictions
